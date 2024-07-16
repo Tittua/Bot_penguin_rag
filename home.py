@@ -22,8 +22,8 @@ with open('meta.txt', 'w') as file:
 
 
 #Defining all the required api keys
-os.environ['HUGGINGFACEHUB_API_TOKEN']="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"
-groq_api_key="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"
+os.environ['HUGGINGFACEHUB_API_TOKEN']="123456"
+groq_api_key="123456"
 
 #defining the Embedding model
 huggingface_embeddings = HuggingFaceHubEmbeddings(
